@@ -4,7 +4,7 @@ import telebot
 import time
 config_dict = get_default_config()
 config_dict['language'] = 'ru' 
-
+botToken = '1800442691:AAGoUT24m4S0LQWA8o1saKRPuzEK0gc-aRU'
 bot = telebot.TeleBot(botToken)
 owm = OWM('9ba44acc75da89cee8a654c527d809ec', config_dict)
 @bot.message_handler(content_types=['text'])
