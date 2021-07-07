@@ -1,1 +1,1 @@
-worker: python 564334.py
+worker: python3 564334.py
